@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    grid-area: Heading;
+    margin: 0;
+}
+
+
+#game {
+    background-color: gray;
+    grid-area: Game;
+}
+
+#gameDiv {
+    display: grid;
+    grid-template-areas: 'Heading' 'Game';
+    justify-content: center;
+    row-gap: 5vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
